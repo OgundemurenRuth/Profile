@@ -1,0 +1,49 @@
+.flex-container {
+  background-color: brown;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+
+  /* display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  /* justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 100px;
+  row-gap: 24px;
+  column-gap: 140px;
+}
+
+.item {
+  background-color: lightblue;
+}
+
+.one {
+  background-color: lightblue;
+  /* height: 170px; */
+}
+
+.two {
+  background-color: lightgreen;
+  /* height: 200px; */
+}
+
+.three {
+  background-color: lightcoral;
+  /* height: 135px; */
+}
+
+.four {
+  background-color: lightpink;
+  /* height: 120px; */
+}
+
+.five {
+  background-color: yellow;
+  /* height: 125px; */
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: solid 1px rgb(41, 41, 41);
+  padding: 8px;
+  border-radius: 20px;
+  background-color: rgb(41, 41, 41);
+}
+
+.size-6 {
+  width: 20px;
+  height: 20px;
+}
+.Searchinput {
+  border: none;
+  outline: none;
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+.Login,
+.signup {
+  font-size: 16px;
+}
+
+.Login {
+  background-color: black;
+  border: none;
+  color: white;
+  margin-right: 5px;
+}
+
+.signup {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageContainer {
+  background-color: green;
+  border-radius: 40px;
+}
